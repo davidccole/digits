@@ -1,10 +1,13 @@
 import React from 'react';
-import { Table } from 'semantic-ui-react';
+import { Table, Button } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import { withRouter, Link } from 'react-router-dom';
 
 /** Renders a single row in the List Stuff table. See pages/ListStuff.jsx. */
 class StuffItem extends React.Component {
+  onClick() {
+    contacts.remove(this.props.stuff._id, this.deleteCallback);
+  }
   render() {
     return (
         <Table.Row>
@@ -13,6 +16,9 @@ class StuffItem extends React.Component {
           <Table.Cell>{this.props.stuff.condition}</Table.Cell>
           <Table.Cell>
             <Link to={`/edit/${this.props.stuff._id}`}>Edit</Link>
+          </Table.Cell>
+          <Table.Cell>
+            <Button basic onClick={this.onClick}>Delete</Button>
           </Table.Cell>
         </Table.Row>
     );

@@ -5,6 +5,7 @@ import { Stuffs } from '/imports/api/stuff/stuff';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
 import Contact from '/imports/ui/components/Contact';
+import ListContacts from '/imports/ui/pages/ListContact';
 
 /** Renders a table containing all of the Stuff documents. Use <StuffItem> to render each row. */
 class ListContacts extends React.Component {
