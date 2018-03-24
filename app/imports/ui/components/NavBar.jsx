@@ -11,7 +11,11 @@ class NavBar extends React.Component {
   render() {
     const menuStyle = { marginBottom: '10px' };
     return (
+<<<<<<< HEAD
       <Menu style={menuStyle} attached="top" borderless inverted color='blue'>
+=======
+      <Menu style={menuStyle} background: blue attached="top" borderless inverted color='blue'>
+>>>>>>> 1fd28d57ded44ad87407a4e07eacaa64fb62f36b
         <Menu.Item as={NavLink} activeClassName="" exact to="/">
           <Header inverted as='h1'>digits</Header>
         </Menu.Item>

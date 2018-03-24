@@ -1,4 +1,10 @@
 .digits-landing-background {
+<<<<<<< HEAD
   background: url("/images/someone-typing-on-an-apple-mac-computer-keyboard-BFA0R4.jpg") no-repeat center center fixed;
   background-size: cover;
 }
+=======
+<!-- background: url('/images/someone-typing-on-an-apple-mac-computer-keyboard-BFA0R4.jpg') no-repeat center center fixed; -->
+  background-size: cover;
+}
+>>>>>>> 1fd28d57ded44ad87407a4e07eacaa64fb62f36b
