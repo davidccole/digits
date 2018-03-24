@@ -29,10 +29,5 @@ class Contact extends React.Component {
 Contact.propTypes = {
   contact: PropTypes.object.isRequired,
 };
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 1fd28d57ded44ad87407a4e07eacaa64fb62f36b
 /** Wrap this component in withRouter since we use the <Link> React Router element. */
 export default withRouter(Contact);
